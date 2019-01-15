@@ -37,5 +37,19 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <script src="https://www.gstatic.com/firebasejs/5.7.3/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyCiW_V1EgJwVIMiTjEohoLFjRqcTDC7Fdk",
+        authDomain: "sh-gamecenter.firebaseapp.com",
+        databaseURL: "https://sh-gamecenter.firebaseio.com",
+        projectId: "sh-gamecenter",
+        storageBucket: "sh-gamecenter.appspot.com",
+        messagingSenderId: "732487005439"
+      };
+      firebase.initializeApp(config);
+    </script>
   </body>
 </html>
